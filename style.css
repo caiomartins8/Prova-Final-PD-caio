@@ -37,7 +37,7 @@ p {
 header img {
   padding: 1vh;
   height: 12vh;
-  width: 15vw;
+  width: 12vw;
 }
 
 footer {
@@ -101,7 +101,14 @@ ul {
   justify-content: flex-end;
 }
 
-#quemsomos,
+#quemsomos {
+  background-color: #242424;
+  width: 40vw;
+  height: 10vh;
+  border-radius: 1vw;
+  text-align: center;
+}
+
 #titulopct {
   background-color: #242424;
   width: 70vw;
@@ -249,11 +256,71 @@ form img {
   color: #b08fe6;
 }
 
-img:hover {
+#aviao:hover {
   transition: 1.5s ease-in-out;
   transform: scale(1.1);
 }
 
 button:hover {
   opacity: 0.5;
+}
+
+
+#x,
+#whatsapp {
+  width: 3vw;
+  height: 7vh;
+}
+
+#insta,
+#facebook {
+  width: 3vw;
+  height: 7vh;
+}
+                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carrosel{
+  width: 100vw;
+  height: 30vw;
+  background-color: #242424;
+}
+
+
+.carrossel img {
+  width: 70vh;
+  height: 40vh;
+  
+}
+
+.carrossel .img {
+  display: none;
+}
+
+.carrossel .img:target {
+  display: block;
+}
+
+.carrossel .voltar {
+  position: start;
+}
+
+.carrossel .avancar {
+  position: end;
 }
