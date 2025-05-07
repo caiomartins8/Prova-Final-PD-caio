@@ -277,7 +277,7 @@ button:hover {
   width: 3vw;
   height: 7vh;
 }
-                   
+
 .carrossel {
   margin-top: 60px;
   width: 100vw;
@@ -288,28 +288,28 @@ button:hover {
   justify-content: center;
 
 }
- 
+
 .carrossel img {
   width: 30vw;
   height: 30vh;
 }
- 
+
 .carrossel .img {
   display: none;
 }
- 
+
 .carrossel .img:target {
   display: block;
 }
- 
+
 .carrossel .b1 {
   position: relative;
 }
- 
+
 .carrossel .b2 {
   position: relative;
 }
- 
+
 .seta {
   position: absolute;
   top: 50%;
@@ -329,6 +329,6 @@ button:hover {
   right: 20px;
 }
 
-.setaesquerda{
+.setaesquerda {
   left: 20px;
 }
