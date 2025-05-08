@@ -1,103 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Concluir Pagamento</title>
-    <link rel="stylesheet" href="style.css">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Serviços</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-</head>
-
-<body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
 
     <header>
-      <a href="index.html" >
-        <img src="imagens/travel-3685042_1280.png" alt="" />
+      <a href="index.html">
+        <figure>
+          <img src="imagens/travel-3685042_1280.png" alt="Logo Travel Turismo" />
+          <figcaption>Logo da empresa Travel Turismo</figcaption>
+        </figure>
       </a>
-  
+
       <ul id="dp">
-        <li>
-          <a href="quemsomos.html" >Quem <br />Somos</a>
-        </li>
-        <li><a href="servicos.html" >Serviços</a></li>
+        <li><a href="quemsomos.html">Quem <br />Somos</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
         <li><a href="planos.html">Planos</a></li>
-        <li><a href="compra.html" >Comprar</a></li>
+        <li><a href="compra.html">Comprar</a></li>
       </ul>
     </header>
 
     <main>
-        <form action="">
+      <form action="">
 
-            <img src="imagens/travel-3685042_1280.png" alt="">
-            <div>
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="e-mail">
-                <input type="tel" placeholder="telefone">
-            </div>
+        <figure>
+          <img src="imagens/travel-3685042_1280.png" alt="Imagem ilustrativa do serviço" />
+          <figcaption>Imagem promocional do serviço</figcaption>
+        </figure>
 
-            <div>
-                <input type="number" placeholder="número do cartão">
-                <input type="number" placeholder="cvv">
-                <input type="number" placeholder="cpf">
-            </div>
+        <div>
+          <input type="text" placeholder="name">
+          <input type="email" placeholder="e-mail">
+          <input type="tel" placeholder="telefone">
+        </div>
 
-            <select name="parcelas" id="">
-                <option value="">Parcelas</option>
-                <option value="">1x</option>
-                <option value="">2x</option>
-                <option value="">3x</option>
-                <option value="">4x</option>
-                <option value="">5x</option>
-                <option value="">6x</option>
-                <option value="">7x</option>
-                <option value="">8x</option>
-                <option value="">9x</option>
-                <option value="">10x</option>
-            </select>
+        <div>
+          <input type="number" placeholder="número do cartão">
+          <input type="number" placeholder="cvv">
+          <input type="number" placeholder="cpf">
+        </div>
 
-            <select name="plano" id="selectplano">
-                <option value="">Selecione o plano </option>
-                <option value="">Maldivas</option>
-                <option value="">Egito</option>
-                <option value="">Paris</option>
-            </select>
+        <select name="parcelas">
+          <option value="">Parcelas</option>
+          <option value="">1x</option>
+          <option value="">2x</option>
+          <option value="">3x</option>
+          <option value="">4x</option>
+          <option value="">5x</option>
+          <option value="">6x</option>
+          <option value="">7x</option>
+          <option value="">8x</option>
+          <option value="">9x</option>
+          <option value="">10x</option>
+        </select>
 
+        <select name="plano" id="selectplano">
+          <option value="">Selecione o plano </option>
+          <option value="">Maldivas</option>
+          <option value="">Egito</option>
+          <option value="">Paris</option>
+        </select>
 
-    <label for="">              <input type="checkbox"> 
-        Eu li e aceito os termos de compromisso
-    </label>
+        <label>
+          <input type="checkbox" id="checkbox"> 
+          Eu li e aceito os termos de compromisso
+        </label>
 
-            <button>Comprar</button>
+        <button>Comprar</button>
 
-        </form>
+      </form>
     </main>
 
     <footer>
-        <a href="" target="_blank">
-          <img
-            src="imagens/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.webp"
-            alt="" id="whatsapp"
-          />
-        </a>
-        <a href="" target="_blank">
-          <img src="imagens/Facebook_f_logo_(2019).svg.png" alt="" id="facebook"/>
-        </a>
-        <a href="" target="_blank">
-          <img
-            src="imagens/instagram-new-2022-logo-png_seeklogo-438252.png"
-            alt="" id="insta"
-          />
-        </a>
-        <a href="" target="_blank">
-          <img
-            src="imagens/new-twitter-x-logo-twitter-icon-x-social-media-icon-free-png.webp"
-            alt="" id="x"
-          />
-        </a>
-      </footer>
-</body>
-
+      <a href="" target="_blank">
+        <figure>
+          <img src="imagens/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.webp" alt="WhatsApp" id="whatsapp" />
+          <figcaption>Contato via WhatsApp</figcaption>
+        </figure>
+      </a>
+      <a href="" target="_blank">
+        <figure>
+          <img src="imagens/Facebook_f_logo_(2019).svg.png" alt="Facebook" id="facebook"/>
+          <figcaption>Facebook da empresa</figcaption>
+        </figure>
+      </a>
+      <a href="" target="_blank">
+        <figure>
+          <img src="imagens/instagram-new-2022-logo-png_seeklogo-438252.png" alt="Instagram" id="insta" />
+          <figcaption>Instagram da empresa</figcaption>
+        </figure>
+      </a>
+      <a href="" target="_blank">
+        <figure>
+          <img src="imagens/new-twitter-x-logo-twitter-icon-x-social-media-icon-free-png.webp" alt="Twitter/X" id="x" />
+          <figcaption>Perfil no X (antigo Twitter)</figcaption>
+        </figure>
+      </a>
+    </footer>
+  </body>
 </html>
